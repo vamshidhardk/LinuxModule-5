@@ -1,0 +1,12 @@
+USAGE: 
+$ make clean; make ; sudo rmmod fourthmodule ; sudo insmod fourthmodule.ko
+$ cat /proc/myPS 
+Please provide a non-zero PID
+$
+$ echo 1 >& /proc/myPS 
+$
+$ cat /proc/myPS 
+PPID: 0							       PID: 1	      Command: init
+
+
+On-demand PS proc file. Give it a PID and it spills out some information about that PID.
