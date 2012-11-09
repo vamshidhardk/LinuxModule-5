@@ -1,5 +1,5 @@
 USAGE: 
-$ make clean; make ; sudo rmmod fourthmodule ; sudo insmod fourthmodule.ko
+$ make clean; make ; sudo rmmod fifthmodule ; sudo insmod fifthmodule.ko
 $ cat /proc/myPS 
 Please provide a non-zero PID
 $
